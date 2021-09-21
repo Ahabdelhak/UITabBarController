@@ -15,6 +15,8 @@
 		DCD2AA2A26E8E46400E8E73C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD2AA2826E8E46400E8E73C /* LaunchScreen.storyboard */; };
 		DCD2AA3526E8E46400E8E73C /* UITabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2AA3426E8E46400E8E73C /* UITabBarControllerTests.swift */; };
 		DCD2AA4026E8E46400E8E73C /* UITabBarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2AA3F26E8E46400E8E73C /* UITabBarControllerUITests.swift */; };
+		DCD2AA4E26E8E55400E8E73C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2AA4D26E8E55400E8E73C /* TabBarViewController.swift */; };
+		DCD2AA5026E8F59800E8E73C /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2AA4F26E8F59800E8E73C /* FirstTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DCD2AA3B26E8E46400E8E73C /* UITabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD2AA3F26E8E46400E8E73C /* UITabBarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarControllerUITests.swift; sourceTree = "<group>"; };
 		DCD2AA4126E8E46400E8E73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD2AA4D26E8E55400E8E73C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		DCD2AA4F26E8F59800E8E73C /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				DCD2AA2626E8E46400E8E73C /* Assets.xcassets */,
 				DCD2AA2826E8E46400E8E73C /* LaunchScreen.storyboard */,
 				DCD2AA2B26E8E46400E8E73C /* Info.plist */,
+				DCD2AA4D26E8E55400E8E73C /* TabBarViewController.swift */,
+				DCD2AA4F26E8F59800E8E73C /* FirstTabViewController.swift */,
 			);
 			path = UITabBarController;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD2AA4E26E8E55400E8E73C /* TabBarViewController.swift in Sources */,
+				DCD2AA5026E8F59800E8E73C /* FirstTabViewController.swift in Sources */,
 				DCD2AA2226E8E46300E8E73C /* ViewController.swift in Sources */,
 				DCD2AA1E26E8E46300E8E73C /* AppDelegate.swift in Sources */,
 				DCD2AA2026E8E46300E8E73C /* SceneDelegate.swift in Sources */,
